@@ -6,4 +6,4 @@
 * Add new @babel syntax to .babelrc
 * Lint with new rules
 * Support stylelint 14.0.1
-* Updat peer-dependencies
+* Update peer-dependencies
