@@ -37,32 +37,32 @@
     ]
   },
   "peerDependencies": {
-    "stylelint": "^14.0.1"
+    "stylelint": "^14.8.2"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.16.0",
-    "@babel/preset-env": "^7.16.0",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-env": "^7.17.12",
     "@babel/preset-stage-0": "^7.8.3",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^10.1.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-jest": "^27.2.0",
-    "babel-preset-stage-0": "^6.24.1",
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.12",
+    "@babel/eslint": "^10.1.0",
+    "@babel/preset-env": "^7.17.12",
+    "@babel/preset-jest": "^28.0.2",
+    "@babel/preset-stage-0": "^7.8.3",
     "coveralls": "^3.1.1",
-    "eslint": "^8.1.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-config-stylelint": "^15.0.0",
-    "eslint-plugin-import": "^2.25.2",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-stylelint": "^15.1.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.0.0",
     "extend": ">=3.0.2",
-    "jest": "^27.3.1",
-    "jest-cli": "^27.3.1",
-    "jest-preset-stylelint": "^4.1.1",
+    "jest": "^28.1.0",
+    "jest-cli": "^28.1.0",
+    "jest-preset-stylelint": "^5.0.3",
     "lodash": "^4.17.21",
     "parent-module": "^3.0.0",
-    "prettier": "^2.4.1",
+    "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
-    "stylelint": "^14.0.1"
+    "stylelint": "^14.8.2"
   }
 }
