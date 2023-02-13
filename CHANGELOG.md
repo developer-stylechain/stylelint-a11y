@@ -1,3 +1,7 @@
+### 1.2.5: 2023-02-13
+
+* Update packages
+
 ### 1.2.4: 2021-11-04
 
 * Open CHANGELOG.md
