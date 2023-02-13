@@ -1,3 +1,7 @@
+### 1.2.6: 2023-02-13
+
+* Update peer dependency of stylelint to 15.1.0
+
 ### 1.2.5: 2023-02-13
 
 * Update packages
