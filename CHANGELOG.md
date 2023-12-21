@@ -1,3 +1,7 @@
+### 1.2.9: 2023-12-21
+
+* Revert back to stylelint 15.1.0 until proper migration (Migrate to stylelint 16 #4)
+
 ### 1.2.8: 2023-12-21
 
 * Support stylelint 16, stylelint-a11y#65
