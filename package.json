@@ -1,6 +1,6 @@
 {
   "name": "@ronilaukkarinen/stylelint-a11y",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "Plugin for stylelint with a11y rules",
   "main": "dist/index.js",
   "repository": "https://github.com/ronilaukkarinen/stylelint-a11y.git",
@@ -36,7 +36,7 @@
     ]
   },
   "peerDependencies": {
-    "stylelint": "10 - 15"
+    "stylelint": "10 - 16"
   },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
@@ -59,6 +59,6 @@
     "parent-module": "^3.0.0",
     "prettier": "^2.8.4",
     "rimraf": "^4.1.2",
-    "stylelint": "^15.1.0"
+    "stylelint": "^16.0.2"
   }
 }

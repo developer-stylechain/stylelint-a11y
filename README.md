@@ -8,7 +8,13 @@
 ## Installation and usage
 
 ```bash
-yarn add --dev stylelint stylelint-a11y
+yarn add --dev stylelint @ronilaukkarinen/stylelint-a11y
+```
+
+or
+
+```
+npm install --save-dev stylelint @ronilaukkarinen/stylelint-a11y
 ```
 
 Create the `.stylelintrc.json` config file (or open the existing one), add `stylelint-a11y` to the plugins array and the rules you need to the rules list. All rules from stylelint-a11y need to be namespaced with `a11y`.

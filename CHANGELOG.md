@@ -1,3 +1,9 @@
+### 1.2.8: 2023-12-21
+
+* Support stylelint 16, stylelint-a11y#65
+* Update peer dependency of stylelint to 16.0.2
+* Add installation instructions
+
 ### 1.2.7: 2023-02-15
 
 * Change to less strict peer dependency of stylelint
