@@ -22,7 +22,7 @@
     "prettify": "prettier '**/*.js' --write",
     "prepublish": "npm run build",
     "pretest": "npm run lint -- --fix",
-    "test": "npm run lint"
+    "test": "npm run lint && jest"
   },
   "prettier": {
     "printWidth": 100,
