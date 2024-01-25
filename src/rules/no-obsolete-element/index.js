@@ -1,5 +1,5 @@
 import { utils } from 'stylelint';
-import isStandardSyntaxRule from 'stylelint/lib/utils/isStandardSyntaxRule';
+import isStandardSyntaxRule from '../../utils/isStandardSyntaxRule.cjs';
 import { obsoleteElements } from './obsoleteElements';
 
 export const ruleName = 'a11y/no-obsolete-element';
