@@ -1,6 +1,6 @@
 import { utils } from 'stylelint';
 import { parse } from 'postcss';
-import isStandardSyntaxRule from 'stylelint/lib/utils/isStandardSyntaxRule';
+import isStandardSyntaxRule from '../../utils/isStandardSyntaxRule.cjs';
 import isStandardSyntaxSelector from 'stylelint/lib/utils/isStandardSyntaxSelector';
 import isStandardSyntaxAtRule from 'stylelint/lib/utils/isStandardSyntaxAtRule';
 import isCustomSelector from 'stylelint/lib/utils/isCustomSelector';
