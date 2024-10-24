@@ -1,9 +1,8 @@
 # stylelint-a11y
 
-[![NPM version](http://img.shields.io/npm/v/@ronilaukkarinen/stylelint-a11y.svg)](https://www.npmjs.org/package/@ronilaukkarinen/stylelint-a11y)
-[![npm](https://img.shields.io/npm/dt/@ronilaukkarinen/stylelint-a11y.svg)](http://www.npmtrends.com/@ronilaukkarinen/stylelint-a11y)
+[![NPM version](https://img.shields.io/npm/v/@ronilaukkarinen/stylelint-a11y.svg)](https://www.npmjs.org/package/@ronilaukkarinen/stylelint-a11y)
+[![npm](https://img.shields.io/npm/dt/@ronilaukkarinen/stylelint-a11y.svg)](https://www.npmtrends.com/@ronilaukkarinen/stylelint-a11y)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
-[![Build Status](https://travis-ci.org/YozhikM/stylelint-a11y.svg?branch=master)](https://travis-ci.org/YozhikM/stylelint-a11y)
 
 ## Installation and usage
 
@@ -13,11 +12,11 @@ yarn add --dev stylelint @ronilaukkarinen/stylelint-a11y
 
 or
 
-```
+```bash
 npm install --save-dev stylelint @ronilaukkarinen/stylelint-a11y
 ```
 
-Create the `.stylelintrc.json` config file (or open the existing one), add `stylelint-a11y` to the plugins array and the rules you need to the rules list. All rules from stylelint-a11y need to be namespaced with `a11y`.
+Create the `.stylelintrc.json` config file (or open the existing one), add `@ronilaukkarinen/stylelint-a11y` to the plugins array and the rules you need to the rules list. All rules from stylelint-a11y need to be namespaced with `a11y`.
 
 Please refer to [stylelint docs](https://stylelint.io/user-guide/) for the detailed info on using this linter.
 
@@ -45,15 +44,15 @@ Please refer to [stylelint docs](https://stylelint.io/user-guide/) for the detai
 
 Add recommended configuration by simply adding the following to `extends` in your stylelint configuration:
 
-```
-stylelint-a11y/recommended
+```text
+@ronilaukkarinen/stylelint-a11y/recommended
 ```
 
 This shareable config contains the following:
 
 ```json
 {
-  "plugins": ["stylelint-a11y"],
+  "plugins": ["@ronilaukkarinen/stylelint-a11y"],
   "rules": {
     "a11y/media-prefers-reduced-motion": true,
     "a11y/no-outline-none": true,
@@ -77,6 +76,6 @@ There work on the plugin's rules is still in progress, so if you feel like it, y
 - Contribute to [stylelint](https://github.com/stylelint/stylelint)
 - Spread the word.
 
-We communicate via [issues](https://github.com/YozhikM/stylelint-a11y/issues) and [pull requests](https://github.com/YozhikM/stylelint-a11y/pulls).
+We communicate via [issues](https://github.com/developer-stylechain/stylelint-a11y/issues) and [pull requests](https://github.com/developer-stylechain/stylelint-a11y/pulls).
 
 There is also [stackoverflow](https://stackoverflow.com/questions/tagged/stylelint), which would be the preferred QA forum.
